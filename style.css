@@ -1,0 +1,219 @@
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
+
+/* HEADER */
+
+header{
+    background: #600000;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1{
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+/* NAV */
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    background: #800000;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background: #aa0000;
+}
+
+/* INICIO */
+
+.inicio{
+
+    text-align: center;
+
+    padding: 140px 20px;
+
+    min-height: 90vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200');
+
+    background-size: cover;
+
+    background-position: center;
+}
+/* CONTENEDOR TEXTO */
+
+.texto-inicio{
+
+    background: rgba(0,0,0,0.7);
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    max-width: 700px;
+
+    margin: auto;
+}
+.inicio h2{
+    color: #ff4d4d;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.inicio p{
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* INFO */
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    padding: 50px 20px;
+}
+
+.card{
+    background: #1a1a1a;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card h3{
+    color: #ff4d4d;
+    margin-bottom: 15px;
+}
+
+/* RESERVACIONES */
+
+.reservaciones{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.reservaciones h2{
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+.reservaciones input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reservaciones button{
+    padding: 10px 20px;
+    background: #800000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.reservaciones button:hover{
+    background: #aa0000;
+}
+
+/* RESEÑAS */
+
+.reviews{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.reviews h2{
+    color: #ff4d4d;
+    margin-bottom: 20px;
+}
+
+.review{
+    background: #1a1a1a;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.review span{
+    color: #ff8080;
+}
+
+.reviews textarea{
+    width: 80%;
+    max-width: 500px;
+    height: 120px;
+
+    margin-top: 20px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    border: none;
+}
+
+.reviews button{
+    display: block;
+
+    margin: 20px auto;
+
+    padding: 10px 20px;
+
+    background: #800000;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+}
+
+.reviews button:hover{
+    background: #aa0000;
+}
+
+/* FOOTER */
+
+footer{
+    background: #600000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}

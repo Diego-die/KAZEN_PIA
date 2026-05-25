@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menú | KAZEN</title>
+
+    <style>
+
+        /* GENERAL */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        /* HEADER */
+
+        header{
+            background: #600000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1{
+            color: #ff4d4d;
+            margin-bottom: 20px;
+        }
+
+        /* NAV */
+
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            background: #800000;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            background: #aa0000;
+        }
+
+        /* TITULO */
+
+        .titulo{
+            text-align: center;
+            padding: 50px 20px 20px;
+        }
+
+        .titulo h2{
+            color: #ff4d4d;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .titulo p{
+            color: #ddd;
+        }
+
+        /* MENU */
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+
+            padding: 40px 20px;
+        }
+
+        /* TARJETAS */
+
+        .card{
+            background: #1a1a1a;
+            width: 300px;
+            border-radius: 15px;
+            overflow: hidden;
+
+            transition: 0.3s;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .contenido{
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contenido h3{
+            color: #ff4d4d;
+            margin-bottom: 15px;
+        }
+
+        .contenido p{
+            color: #ddd;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* FOOTER */
+
+        footer{
+            background: #600000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        /* LISTAS */
+
+.contenido ul{
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+
+    text-align: left;
+
+    padding-left: 20px;
+
+    color: #ddd;
+}
+
+.contenido li{
+
+    margin-bottom: 8px;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>KAZEN (風膳)</h1>
+
+        <nav>
+
+            <a href="index.html">Inicio</a>
+            <a href="Sucursales.html">Sucursales</a>
+            <a href="Contacto.html">Contacto</a>
+
+        </nav>
+
+    </header>
+
+    <!-- TITULO -->
+
+    <section class="titulo">
+
+        <h2>Nuestro Menú</h2>
+
+        <p>
+            Descubre nuestros platillos japoneses más populares.
+        </p>
+
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu">
+
+        <!-- SUSHI -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=1200">
+
+            <div class="contenido">
+
+    <h3>🍣 Sushi Premium</h3>
+
+    <p>
+        Rollos preparados con ingredientes frescos
+        y sabor auténtico japonés.
+    </p>
+
+    <ul>
+
+    <li>California Roll - $180</li>
+    <li>Philadelphia Roll - $190</li>
+    <li>Spicy Tuna - $210</li>
+    <li>Dragon Roll - $230</li>
+
+</ul>
+
+
+
+</div>
+
+        </div>
+
+        <!-- RAMEN -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?q=80&w=1200">
+
+            <div class="contenido">
+
+    <h3>🍜 Ramen Tradicional</h3>
+
+    <p>
+        Caldo intenso acompañado de fideos,
+        carne y vegetales frescos.
+    </p>
+
+    <ul>
+
+    <li>Tonkotsu - $220</li>
+    <li>Shoyu - $200</li>
+    <li>Miso Ramen - $215</li>
+    <li>Spicy Ramen - $240</li>
+
+</ul>
+
+
+
+</div>
+
+        </div>
+
+        <!-- BEBIDAS -->
+
+        <div class="card">
+
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=1200">
+
+            <div class="contenido">
+
+    <h3>🥤 Bebidas Japonesas</h3>
+
+    <p>
+        Refrescos y bebidas tradicionales
+        para acompañar tu comida.
+    </p>
+
+    <ul>
+
+    <li>Ramune - $60</li>
+    <li>Té Verde - $45</li>
+    <li>Sake - $120</li>
+    <li>Matcha Frappé - $95</li>
+
+</ul>
+
+
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>KAZEN © 2026</p>
+
+    </footer>
+
+</body>
+
+</html>

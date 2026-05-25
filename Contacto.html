@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contacto | KAZEN</title>
+
+    <style>
+
+        /* GENERAL */
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        /* HEADER */
+
+        header{
+            background: #600000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1{
+            color: #ff4d4d;
+            margin-bottom: 20px;
+        }
+
+        /* NAV */
+
+        nav{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            background: #800000;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        nav a:hover{
+            background: #aa0000;
+        }
+
+        /* TITULO */
+
+        .titulo{
+            text-align: center;
+            padding: 50px 20px 20px;
+        }
+
+        .titulo h2{
+            color: #ff4d4d;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .titulo p{
+            color: #ddd;
+        }
+
+        /* CONTACTO */
+
+        .contacto{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+
+            padding: 40px 20px;
+        }
+
+        /* TARJETAS */
+
+        .card{
+            background: #1a1a1a;
+            width: 320px;
+            border-radius: 15px;
+            overflow: hidden;
+
+            transition: 0.3s;
+
+            padding: 25px;
+        }
+
+        .card:hover{
+            transform: translateY(-5px);
+        }
+
+        .card h3{
+            color: #ff4d4d;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .card p{
+            color: #ddd;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        /* FORMULARIO */
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input,
+        textarea{
+            padding: 12px;
+            border: none;
+            border-radius: 10px;
+
+            background: #222;
+            color: white;
+        }
+
+        textarea{
+            height: 120px;
+            resize: none;
+        }
+
+        button{
+            background: #800000;
+            color: white;
+
+            border: none;
+
+            padding: 12px;
+
+            border-radius: 10px;
+
+            cursor: pointer;
+
+            transition: 0.3s;
+        }
+
+        button:hover{
+            background: #aa0000;
+        }
+
+        /* REDES */
+
+        .redes{
+            margin-top: 15px;
+        }
+
+        .redes p{
+            margin-bottom: 10px;
+        }
+
+        /* FOOTER */
+
+        footer{
+            background: #600000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h1>KAZEN (風膳)</h1>
+
+        <nav>
+
+            <a href="index.html">Inicio</a>
+            <a href="Menú.html">Menú</a>
+            <a href="Sucursales.html">Sucursales</a>
+
+        </nav>
+
+    </header>
+
+    <!-- TITULO -->
+
+    <section class="titulo">
+
+        <h2>Contacto</h2>
+
+        <p>
+            Comunícate con nosotros o envíanos tus comentarios.
+        </p>
+
+    </section>
+
+    <!-- CONTACTO -->
+
+    <section class="contacto">
+
+        <!-- INFORMACION -->
+
+        <div class="card">
+
+            <h3>📞 Información</h3>
+
+            <p>Teléfono: 81 1234 5678</p>
+
+            <p>Correo: contacto@kazen.com</p>
+
+            <p>Horario: 1 PM - 11 PM</p>
+
+            <p>Monterrey, Nuevo León</p>
+
+            <div class="redes">
+
+                <p>📷 Instagram: @KAZENmx</p>
+
+                <p>🎵 TikTok: @KAZENoficial</p>
+
+                <p>📘 Facebook: KAZEN Sushi</p>
+
+            </div>
+
+        </div>
+
+        <!-- FORMULARIO -->
+
+        <div class="card">
+
+            <h3>✉ Envíanos un mensaje</h3>
+
+            <form>
+
+                <input type="text" placeholder="Tu nombre">
+
+                <input type="email" placeholder="Tu correo">
+
+                <textarea placeholder="Escribe tu mensaje..."></textarea>
+
+                <button>Enviar</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>KAZEN © 2026</p>
+
+    </footer>
+
+</body>
+
+</html>
